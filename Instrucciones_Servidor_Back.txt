@@ -1,0 +1,8 @@
+Estos son los pasos generales para ejecutar el servidor de back, con los cuales los cambios implementados en front
+ya se debrían poder visualizar:
+
+1-Descargar MySQL o WorkBench para ejecutar el dump de la base (aqui adjunto, archivo .sql) y que esta se cree en su equipo
+2-Asegurarse que la base se creó correctamente, junto con las tablas e informacion
+3.-En los carpetas donde se encuentran los archivos php, existen algunos llamados "conexion.php" o "conectar.php".
+    Se debe agregar la contraseña que utilizan para acceder a MySQL a cada uno de ellos, en el caso de las carpetasque no tienen estos archivos,
+    tambien hay una forma de conecxion en la que se debe agregar la contraseña (Buscar el comentario de colocar contraseña dentro de los archivos)
